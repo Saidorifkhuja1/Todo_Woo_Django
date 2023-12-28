@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Woo</title>
+
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="{% url 'task-list' %}">Task List</a></li>
+        <li><a href="{% url 'current-tasks' %}">Current Tasks</a></li>
+        <li><a href="{% url 'completed-tasks' %}">Completed Tasks</a></li>
+        <li><a href="{% url 'user-login' %}">Login</a></li>
+        <li><a href="{% url 'user-signup' %}">Sign Up</a></li>
+    </ul>
+</nav>
+
+</body>
+</html>
